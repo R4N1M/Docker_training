@@ -1,0 +1,12 @@
+version: "2"
+services:
+  api:
+    build: "./Api"
+    ports:
+    - 8000:3000
+    
+  app: 
+    build: "./My_app"
+    ports:
+    - 8001:3000
+    
